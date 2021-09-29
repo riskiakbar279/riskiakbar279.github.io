@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'jejual-icon';
+	src: url('../font/jejual/jejual-icon.ttf');
+	src: url('../font/jejual/jejual-icon.woff2') format('woff2'), url('../font/jejual/jejual-icon.ttf') format('truetype'), url('../font/jejual/jejual-icon.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.jicon-form{
+	position: absolute;
+    width: 3rem;
+    font-size: 2rem;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    top: 0.5rem;
+}
+
+.jicon {
+	font-family: 'jejual-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jicon-whatsapp:before {
+	content: "\e000";
+}
+.jicon-people:before {
+	content: "\e001";
+}
+.jicon-home:before {
+	content: "\e002";
+}
+.jicon-post:before {
+	content: "\e003";
+}
+.jicon-location:before {
+	content: "\e004";
+}
+.jicon-location-2:before {
+	content: "\e00D";
+}
+.jicon-coupon:before {
+	content: "\e005";
+}
+.jicon-bukalapak:before {
+	content: "\e006";
+}
+.jicon-facebook:before {
+	content: "\e007";
+}
+.jicon-instagram:before {
+	content: "\e008";
+}
+.jicon-shopee:before {
+	content: "\e009";
+}
+.jicon-tokopedia:before {
+	content: "\e00A";
+}
+.jicon-contact:before {
+	content: "\e00B";
+}
+.jicon-phone:before {
+	content: "\e00C";
+}
+.jicon-review:before {
+	content: "\e00E";
+}
+

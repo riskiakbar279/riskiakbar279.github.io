@@ -1,0 +1,156 @@
+/*** iPhone and iOS Form Input Zoom Fixes ***/
+/* Fix Input Zoom on devices older than iPhone 5: */
+@media screen and (device-aspect-ratio: 2/3) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+
+/* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
+@media screen and (device-aspect-ratio: 40/71) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
+}
+
+/* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
+@media screen and (device-aspect-ratio: 375/667) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"], 
+    input[type="tel"], input[type="url"]{ font-size: 16px; }
+}
+
+/* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
+@media screen and (device-aspect-ratio: 9/16) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="tel"], input[type="url"]{ font-size: 16px; }
+}
+
+
+/* Typography Text  */
+
+.text-0-75rem {
+    font-size: 0.75rem;
+}
+.text-0-875rem {
+    font-size: 0.875rem;
+}
+.text-1rem {
+    font-size: 1rem;
+}
+.text-1-125rem {
+    font-size: 1.125rem;
+}
+.text-1-25rem {
+    font-size: 1.25rem;
+}
+.text-1-375rem {
+    font-size: 1.375rem;
+}
+.text-1-5rem {
+    font-size: 1.5rem;
+}
+.text-2rem {
+    font-size: 2rem;
+}
+
+
+.ribbon {
+  width: 48%;
+  height: 188px;
+  position: relative;
+  float: left;
+  margin-bottom: 30px;
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+}
+.ribbon:nth-child(even) {
+  margin-right: 4%;
+}
+@media (max-width: 500px) {
+  .ribbon {
+    width: 100%;
+  }
+  .ribbon:nth-child(even) {
+    margin-right: 0%;
+  }
+}
+
+.ribbon3promo {
+    width: 50%;
+    height: 26px;
+    line-height: 25px;
+    padding-left: 10px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(72.9deg,#FF5E21 0,#FFB300)!important;
+    border-radius: 10px 0px;
+    /*background: orange;*/
+}
+/*.ribbon3promo:before, .ribbon3promo:after {*/
+/*  content: "";*/
+/*  position: absolute;*/
+/*}*/
+/*.ribbon3promo:before {*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*    top: 24.5px;*/
+/*    left: 0.1px;*/
+/*    border-top: 9px solid black;*/
+/*    border-left: 9px solid transparent;*/
+/*}*/
+/*.ribbon3promo:after {
+    height: 0;
+    width: 0;
+    right: -14.4px;
+    border-top: 15px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid #FFB300;
+}
+*/
+.ribbon3promo_list {
+    width: 50px;
+    font-size: 0.8rem;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+    position: absolute;
+    left: unset;
+    top: unset;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: linear-gradient(72.9deg,#FF5E21 0,#FFB300)!important;
+    border-radius: 10px 0px;
+    /*background: orange;*/
+}
+.ribbon3promo_list:before, .ribbon3promo_list:after {
+  content: "";
+  position: absolute;
+}
+/*.ribbon3promo_list:before {*/
+/*  height: 0;*/
+/*  width: 0;*/
+/*    top: 19.5px;*/
+/*    left: 0.1px;*/
+/*  border-top: 9px solid black;*/
+/*  border-left: 9px solid transparent;*/
+/*}*/
+/*.ribbon3_list:after {
+    height: 0;
+    width: 0;
+    right: -14.4px;
+    border-top: 15px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 15px solid #FFB300;
+}*/
